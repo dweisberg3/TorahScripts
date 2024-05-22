@@ -66,7 +66,7 @@ def main():
 
     for tractate, page_num in talmud_tractates_daf_count.items():
            
-            with open(f'bavli/{tractate.lower()}.txt', 'w') as textFile:
+            with open(f'{tractate.lower()}.txt', 'w') as textFile:
                 pages = get_tractate_pages(tractate,page_num)
                 # print(f'Mesechta : {tractate} . Num of Daf : {page_num} . Num of Pages : {len(pages)}')
                 
