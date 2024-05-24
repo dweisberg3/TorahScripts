@@ -2,6 +2,7 @@
 import requests
 import re
 
+
 def remove_html_tags(text):
     # Regular expression to match HTML tags
     clean = re.compile('<.*?>')
